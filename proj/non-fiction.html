@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiction Books</title>
+    <style>
+   
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .book-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .book-item {
+            text-align: center;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .book-item:hover {
+            transform: scale(1.05);
+        }
+
+        .book-item img {
+            width: 200px;
+            height: 300px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .book-item p {
+            font-size: 16px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Non-Fiction</h1>
+        <div class="book-list">
+            <div class="book-item">
+                <a href="Bookpdf/Marcus-Aurelius-Meditations.pdf" target="_blank">
+                    <img src="Bookcover/Book cover/marcus aurelius.jpg" alt="meditaions">
+                </a>
+                <p>Meditations</p>
+                <p1>By Marcus Aurelius</p1>
+            </div>
+            <div class="book-item">
+                <a href="Bookpdf/16. Myth of Sisyphus.pdf" target="_blank">
+                    <img src="Bookcover/Book cover/image2.jpg" alt="Sissyphus">
+                </a>
+                <p>The Myth of Sisyphus</p>
+                <p1>By Albert Camus</p1>
+            </div>
+            <div class="book-item">
+                <a href="Bookpdf/Charles-Duhigg.The-Power-of-Habit.pdf" target="_blank">
+                    <img src="Bookcover/Book cover/71wm29Etl4L.jpg" alt="Power">
+                </a>
+                <p>The Power of Habitat</p>
+                <p1>By Charles Duhigg</p1>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

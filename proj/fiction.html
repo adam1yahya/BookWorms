@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiction Books</title>
+    <style>
+        /* Basic styles for the page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .book-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .book-item {
+            text-align: center;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .book-item:hover {
+            transform: scale(1.05);
+        }
+
+        .book-item img {
+            width: 200px;
+            height: 300px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .book-item p {
+            font-size: 16px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Fiction</h1>
+        <div class="book-list">
+            <!-- Example book 1 -->
+            <div class="book-item">
+                <a href="Bookpdf/Crime.pdf" target="_blank">
+                    <img src="Bookcover/Book cover/CrimeandPunishment-01.webp" alt="Crime and Punishment">
+                </a>
+                <p>Crime and Punishment</p>
+                <p1>By Fyodor Dostoevsky</p1>
+            </div>
+
+            <!-- Example book 2 -->
+            <div class="book-item">
+                <a href="Bookpdf/i have no mouth.pdf" target="_blank">
+                    <img src="Bookcover/Book cover/ihnm.jpg" alt="I Have No Mouth, and I Must Scream">
+                </a>
+                <p>I Have No Mouth, and I Must Scream</p>
+                <p1>By Harlan Ellison</p1>
+            </div>
+
+            <!-- Example book 3 -->
+            <div class="book-item">
+                <a href="Bookpdf/Dante-Alighieri-The-Divine-Comedy.pdf" target="_blank">
+                    <img src="Bookcover/Book cover/Dante comedy.webp" alt="Divine Comedy">
+                </a>
+                <p>Divine Comedy</p>
+                <p1>By Dante Alighieri</p1>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
